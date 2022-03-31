@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "img": "/images/graphic-design.jpg",
+    "title": "Graphic Design",
+    "details": "Learn in depth details of Graphic Design from professionals",
+    "course": 20
+  },
+  {
+    "id": 2,
+    "img": "/images/course-7.jpg",
+    "title": "Business Analysis",
+    "details": "Learn in depth details of Business Analysis from professionals",
+    "course": 23
+  },
+  {
+    "id": 3,
+    "img": "/images/course-4.jpg",
+    "title": "Digital Marketing",
+    "details": "Learn in depth details of Digital Marketing from professionals",
+    "course": 15
+  },
+  {
+    "id": 4,
+    "img": "/images/data-science.jpg",
+    "title": "Data Science",
+    "details": "Learn in depth details of Data Science from professionals",
+    "course": 8
+  }
+]

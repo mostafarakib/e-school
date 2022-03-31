@@ -1,0 +1,33 @@
+.footer {
+  background-color: #0f1216;
+  color: #fff;
+  padding: 20px;
+  text-align: start;
+}
+
+.footer-link {
+  display: block;
+  color: gray;
+  text-decoration: none;
+}
+.footer-link:hover {
+  color: #fff;
+}
+.btn-email {
+  margin-left: 5px;
+  width: 30px;
+  height: 27px;
+  border: none;
+  background-color: #006bed;
+  color: #fff;
+  font-weight: 600;
+  transition: all 0.2s;
+}
+.btn-email:hover {
+  background-color: #fff;
+  color: black;
+}
+input[type="email"]:active,
+input[type="email"]:focus {
+  outline: none;
+}

@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "img": "/images/course-1.jpg",
+    "title": "Python Mega Course : Go Beginner to Expert in Python3",
+    "star": 4.1,
+    "author": "Funky Programmer",
+    "students": "200,100",
+    "duration": 11,
+    "price": 84.99
+  },
+  {
+    "id": 2,
+    "img": "/images/course-2.jpg",
+    "title": "Microsoft Excel - Excel from Beginner to Advanced",
+    "star": 4.6,
+    "author": "Kyle Pew",
+    "students": "895,125",
+    "duration": 18,
+    "price": 109.99
+  },
+  {
+    "id": 3,
+    "img": "/images/course-3.jpg",
+    "title": "Machine Learning A-Z: Hands-On Python & R In Data Science",
+    "star": 4.5,
+    "author": "Kirill Eremenko",
+    "students": "860,684",
+    "duration": 44,
+    "price": 84.99
+  },
+  {
+    "id": 4,
+    "img": "/images/course-4.jpg",
+    "title": "The Complete Digital Marketing Course - 12 Courses in 1",
+    "star": 4.5,
+    "author": "Rob Percival",
+    "students": "672,251",
+    "duration": 22,
+    "price": 109.99
+  },
+  {
+    "id": 5,
+    "img": "/images/course-5.jpg",
+    "title": "The Complete JavaScript Course 2022: From Zero to Expert!",
+    "star": 4.7,
+    "author": "Jonas Schmedtmann",
+    "students": "595,303",
+    "duration": 69,
+    "price": 84.99
+  },
+  {
+    "id": 6,
+    "img": "/images/course-6.jpg",
+    "title": "The Ultimate Drawing Course - Beginner to Advanced",
+    "star": 4.6,
+    "author": "Jaysen Batchelor",
+    "students": "466,700",
+    "duration": 11,
+    "price": 84.99
+  },
+  {
+    "id": 7,
+    "img": "/images/course-7.jpg",
+    "title": "The Data Science Course 2022: Complete Data Science Bootcamp",
+    "star": 4.6,
+    "author": "365 Careers Team",
+    "students": "457,559",
+    "duration": 29,
+    "price": 84.99
+  },
+  {
+    "id": 8,
+    "img": "/images/course-8.jpg",
+    "title": "The Complete Financial Analyst Training & Investing Course",
+    "star": 4.5,
+    "author": "Chris Haroun",
+    "students": "436,912",
+    "duration": 8,
+    "price": 84.99
+  },
+  {
+    "id": 9,
+    "img": "/images/course-9.jpg",
+    "title": "Photography Masterclass: A Complete Guide to Photography",
+    "star": 4.7,
+    "author": "Chris Haroun",
+    "students": "57,895",
+    "duration": 24,
+    "price": 84.99
+  }
+]

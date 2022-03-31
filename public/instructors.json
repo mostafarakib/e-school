@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "img": "/images/instructor-1.jpg",
+    "subject": "SEO Expert",
+    "Name": "The Fatakeshto"
+  },
+  {
+    "id": 2,
+    "img": "/images/user-3.jpg",
+    "subject": "UX Expert",
+    "Name": "The Tom"
+  },
+  {
+    "id": 3,
+    "img": "/images/instructor-3.jpg",
+    "subject": "Digital Marketer",
+    "Name": "The Boss Of Hooman"
+  },
+  {
+    "id": 4,
+    "img": "/images/instructor-4.jpg",
+    "subject": "Data Scientist",
+    "Name": "The Singham"
+  }
+]

@@ -1,0 +1,8 @@
+.navbar-brand {
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-size: 23px;
+}
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}

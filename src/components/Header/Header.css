@@ -1,0 +1,6 @@
+.header-container {
+  background-image: url("../../../public/bg-banner.svg");
+  height: 850px;
+  width: auto;
+  background-size: cover;
+}

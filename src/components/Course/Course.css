@@ -1,0 +1,38 @@
+.course-img-container {
+  padding: 15px;
+}
+.course-img {
+  height: 220px;
+  background-size: cover;
+}
+
+.course-container .card-body h6 {
+  color: #006bed;
+}
+.course-container {
+  transition: all 0.2s ease-in-out;
+}
+
+.course-container:hover {
+  transform: translateY(-10px);
+}
+.course-container .card {
+  max-width: 350px;
+}
+
+.duration {
+  background-color: #006bed;
+  color: #fff;
+  display: inline-block;
+  padding: 5px;
+  border-radius: 2px;
+  position: absolute;
+  top: 25px;
+  left: 15px;
+}
+.rating {
+  color: #ffa534;
+}
+.price {
+  color: #006bed;
+}
