@@ -40,8 +40,12 @@ const Footer = () => {
             <Link to="/courses" className="footer-link">
               Courses
             </Link>
-            <Link className="footer-link">Events</Link>
-            <Link className="footer-link">Career</Link>
+            <a href="#" className="footer-link">
+              Events
+            </a>
+            <a href="#" className="footer-link">
+              Career
+            </a>
             <Link to="/contact" className="footer-link">
               Contact
             </Link>

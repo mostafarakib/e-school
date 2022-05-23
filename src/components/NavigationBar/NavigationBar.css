@@ -6,3 +6,10 @@
 .nav-item.dropdown:hover .dropdown-menu {
   display: block;
 }
+
+.thumbnail-image {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  object-fit: cover;
+}

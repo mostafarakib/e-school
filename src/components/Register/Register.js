@@ -1,17 +1,14 @@
 import React from "react";
-import "./Login.css";
 import { Col, Container, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import useAuth from "../../hooks/useAuth";
 
-const Login = () => {
+const Register = () => {
   const {
-    signInUsingGoogle,
-    signInUsingFacebook,
-    signInUsingEmailAndPassword,
+    registrationHandler,
+    nameChangeHandler,
     emailChangeHandler,
     passwordChangeHandler,
-    passwordResetHandler,
     error,
   } = useAuth();
   return (
@@ -20,12 +17,18 @@ const Login = () => {
         <Row>
           <Col>
             <div className="login_box w-50 mx-auto">
-              <h2 className="mb-5">Please Sign in!</h2>
+              <h2 className="mb-5">Create User Account</h2>
               <div>
                 <form
                   className="d-flex flex-column"
-                  onSubmit={signInUsingEmailAndPassword}
+                  onSubmit={registrationHandler}
                 >
+                  <input
+                    type="text"
+                    placeholder="  Name"
+                    onBlur={nameChangeHandler}
+                  />
+                  <br />
                   <input
                     type="email"
                     placeholder="  E-mail"
@@ -43,18 +46,12 @@ const Login = () => {
                     className="btn-regular align-self-center ps-5 pe-5"
                     type="submit"
                   >
-                    SIGN IN
+                    SIGN UP
                   </button>
                 </form>
                 <br />
-                <div className="text-start">
-                  Forgot password?{" "}
-                  <a href="#" onClick={passwordResetHandler}>
-                    Click here to reset password
-                  </a>
-                </div>
-                <p className="text-start">
-                  New to E-School? <Link to="/register"> Create account?</Link>
+                <p className="d-flex">
+                  Already an user? <Link to="/login"> Click here to login</Link>
                 </p>
 
                 <hr />
@@ -62,16 +59,10 @@ const Login = () => {
                 <br />
                 <br />
                 <div className="d-flex justify-content-center">
-                  <button
-                    className="me-2 btn-regular btn-google"
-                    onClick={signInUsingGoogle}
-                  >
+                  <button className="me-2 btn-regular btn-google">
                     SIGN IN WITH GOOGLE
                   </button>
-                  <button
-                    className="btn-regular btn-facebook"
-                    onClick={signInUsingFacebook}
-                  >
+                  <button className="btn-regular btn-facebook">
                     SIGN IN WITH FACEBOOK
                   </button>
                 </div>
@@ -84,4 +75,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default Register;

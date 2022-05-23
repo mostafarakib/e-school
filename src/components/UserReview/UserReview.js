@@ -8,7 +8,7 @@ const UserReview = () => {
       <h6 className="section-intro mt-5">Testimonial</h6>
       <h2>What Our Student Says</h2>
       <Container className="mt-4">
-        <Carousel variant="dark">
+        <Carousel variant="dark" controls={false}>
           <Carousel.Item className="d-flex align-items-center flex-sm-column flex-md-row ">
             <img className="d-block me-5" src="/images/user-3.jpg" alt="user" />
 
